@@ -25,6 +25,9 @@ def analyze_jobs_by_skill():
     if count == 0:
         print("no result!!")
         exit()
+    else :
+        print(f"Found {count} jobs\n")
+
 
     print(f"{'Job Title':<25} | {'City':<10} | {'Skills'}")
     print("-" * 60)
